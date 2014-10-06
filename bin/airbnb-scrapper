@@ -1,0 +1,10 @@
+'use strict';
+var program = require('commander');
+var airbnbScrapper = require('..');
+
+program
+  .version('1.0.0')
+  .option('-v, --verbose', 'Be verbose and print what is being done')
+  .parse(process.argv);
+
+airbnbScrapper(program);

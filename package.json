@@ -1,0 +1,32 @@
+{
+  "name": "airbnb-scrapper",
+  "version": "1.0.0",
+  "description": "A command-line tool for scrapping AirBNB postings.",
+  "main": "lib/index.js",
+  "bin": "bin/airbnb-scrapper",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yamadapc/airbnb-scrapper"
+  },
+  "keywords": [
+    "airbnb",
+    "cli",
+    "scrapping"
+  ],
+  "author": "Pedro Tacla Yamada",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yamadapc/airbnb-scrapper/issues"
+  },
+  "homepage": "https://github.com/yamadapc/airbnb-scrapper",
+  "dependencies": {
+    "bluebird": "^2.3.4",
+    "cheerio": "^0.17.0",
+    "commander": "^2.3.0",
+    "lodash": "^2.4.1",
+    "superagent": "^0.19.1"
+  }
+}
