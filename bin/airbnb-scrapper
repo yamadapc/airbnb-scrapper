@@ -5,7 +5,18 @@ var airbnbScrapper = require('..');
 
 program
   .version('1.0.0')
+  .usage('[options] urls...')
   .option('-v, --verbose', 'Be verbose and print what is being done')
+  .option('-c, --csv', 'Output the information in CSV format')
+  .option('-j, --json', 'Ouput the information in JSON format')
+  .option('-o, --output', 'An output file path (defaults to stdout)')
   .parse(process.argv);
 
-airbnbScrapper(program);
+airbnbScrapper(program)
+  .then(
+    process.exit.bind(process, 0),
+    function(err) {
+      console.log('Error: ' + err.message);
+      process.exit(1);
+    }
+  );
