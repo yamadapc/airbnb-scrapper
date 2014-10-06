@@ -1,6 +1,6 @@
 {
   "name": "airbnb-scrapper",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A command-line tool for scrapping AirBNB postings.",
   "main": "lib/index.js",
   "bin": "bin/airbnb-scrapper",
