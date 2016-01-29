@@ -27,7 +27,7 @@
     "cheerio": "^0.17.0",
     "commander": "^2.3.0",
     "json2csv": "^2.2.1",
-    "lodash": "^2.4.1",
+    "lodash": "^4.1.0",
     "superagent": "^0.19.1"
   }
 }
