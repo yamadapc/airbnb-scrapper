@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/yamadapc/airbnb-scrapper",
   "dependencies": {
-    "bluebird": "^2.3.4",
+    "bluebird": "^3.2.0",
     "cheerio": "^0.17.0",
     "commander": "^2.3.0",
     "json2csv": "^2.2.1",
