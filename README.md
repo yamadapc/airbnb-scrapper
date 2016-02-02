@@ -16,3 +16,6 @@ Downloading posting for `some_id`...
 Extracting information for `some_id`...
 title,host_name,host_profile_url,n_guests,posting_type,price_per_night,price_per_week,url,google_maps_url,
 ```
+
+## Donations
+Would you like to buy me a beer? Send bitcoin to 3JjxJydvoJjTrhLL86LGMc8cNB16pTAF3y
